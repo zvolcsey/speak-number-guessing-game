@@ -1,0 +1,52 @@
+:root {
+  --background: #2f3542;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--background) url('../img/bg.jpg') left center/cover no-repeat;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 1rem;
+}
+
+h1,
+h3 {
+  margin-top: 1.25rem;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.play-btn {
+  padding: 0.5rem 0.9rem;
+  border: 0;
+  background: #f4f4f4;
+  border-radius: 0.3rem;
+  margin-top: 0.6rem;
+}
+
+.msg {
+  font-size: 1.5em;
+  margin-top: 2.5rem;
+}
+
+.box {
+  border: 0.1rem solid #dedede;
+  display: inline-block;
+  font-size: 1.9rem;
+  margin: 1.25rem;
+  padding: 0.6rem;
+}
